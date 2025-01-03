@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+header {
+    background: linear-gradient(to right, purple, blue);
+    color: white;
+    padding: 5px 540px;
+    text-align: center;
+    position: fixed;
+}    
+
+.hero-section {
+       text-align: center;
+       background-image: url(https://plus.unsplash.com/premium_photo-1673108852149-85f46a4dee4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8);
+       color: black;
+       padding: 200px 50px;
+}
+
+.about-section {
+     text-align: center;
+     background-image: url('https://media.istockphoto.com/id/1467199060/photo/cup-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=1024x1024&w=is&k=20&c=AQMf8ZY1HpuFYRUnelun_cSp43CqxQTeDu2HrCUhatI=');
+     color: white;
+     padding: 50px 20px;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://images.unsplash.com/photo-1734375315815-77169cefe3d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D');
+    
+}
+
+.portfolio h2 {
+    margin-bottom: 10px;
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://plus.unsplash.com/premium_photo-1706191097326-cd317671d1fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTZ8fHxlbnwwfHx8fHw%3D');
+}
+
+.projects .project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    font-size: 16px;
+    border: 10px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
